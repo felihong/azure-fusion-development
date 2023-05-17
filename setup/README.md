@@ -33,12 +33,12 @@ Before you run the PowerShell script, log into the Azure portal and get your **S
 
 As a next step, you can deploy the resources using PowerShell scripts. Depending on the OS platform you use, run the following commands:
 
-- Windows user
+#### Windows user
 ```powershell
 Set-Location -Path "<Local path to this repository root>\setup"
 .\Setup-AzureLabEnvironment-Win.ps1
 ```
-- Linux/Mac user
+#### Linux/Mac user
 ```bash
 pwsh
 Set-Location -Path "<Local path to this repository root>\setup"
@@ -49,19 +49,19 @@ Set-Location -Path "<Local path to this repository root>\setup"
 
 You can run the API locally using following commands. Depending on the platform you use: 
 
-- Windows user
+#### Windows user
 ```powershell
 cd ..\Contoso.Healthcare
 dotnet run
 ```
-- Linux/Mac User
+#### Linux/Mac User
 ```bash
 cd ../Contoso.Healthcare
 dotnet run
 ```
 
 The output of this command will show you the URL it is running on. By default, it should be `http://localhost:5000`.
-Navigate to `http://localhost:5000/`
+Navigate to `http://localhost:5000/Patient`, you should be able to see an empty response returned as [], which indicates a successful test. 
 
 
 ## Testing the API with Postman
@@ -78,23 +78,35 @@ These are situations where you may run into problems and how you can fix them.
 ### Unable to resolve Nuget packages
 
 Are you seeing this message?
-
 ```dotnetcli
 Unable to resolve 'Microsoft.Azure.Cosmos (>= 3.31.2)' for 'net7.0' and this one Unable to resolve 'Swashbuckle.AspNetCore (>= 6.2.3)' for 'net7.0'. 
 ```
 
 This means that Nuget can't get these packages for some reason.
-
 Run this command to see what your Nuget source is:
 
 ```dotnetcli
 dotnet nuget list source
 ```
-
 If you do not see any listings for sources, you need to [add the main nuget.org feed](https://learn.microsoft.com/dotnet/core/tools/dotnet-nuget-add-source#examples) with this command:
 
 ```dotnetcli
 dotnet nuget add source https://api.nuget.org/v3/index.json --name nuget.org
 ```
-
 Once you add this Nuget source, then you should rerun the Setup script.
+
+### AuthKeyOrResourceToken parameter is set to null
+
+Are you seeing this message?
+```dotnetcli
+Unhandled exception. System.ArgumentNullException: Value cannot be null. (Parameter 'authKeyOrResourceToken')
+```
+This means the required environment variables are not set properlly. Which is by default, configured automatically by running the PowerShell script.
+Make sure you have the following env variables configured:
+
+```
+- PowerAppsLabDatabaseName: HealthCheckDB
+- PowerAppsLabContainerName: HealthCheck
+- PowerAppsLabAccount: <COSMOS DB URL>
+- PowerAppsLabKey: <COSMOS DB PRIMARY KEY>
+```
