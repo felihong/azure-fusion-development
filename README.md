@@ -1,9 +1,15 @@
-# Designing Power Apps for Power Platform - Lab Prework
+# Design Power Apps Technical Application Workshop - Lab Prework
 
-Companion lab guide for the Designing Power Apps for Power Platform TAW (Microsoft Technical Application Workshop)
+Companion lab guide for the designing Power Apps for customiyed solutions using Fusion-based (Pro-code & Low-code) approach. 
+Integrating Microsoft Power Platform with Azure compute services to accelerate professional developer's productivity.
 
-For the guide on performing the prework to prepare your Azure environment for the lab, see the readme in the setup folder here - https://github.com/solliancenet/taw-power-apps-power-platform/blob/main/setup/README.md
+## Getting started
+
+For the guide on performing the prework to prepare your Azure environment for the lab, see the `README` in the setup folder here - [Lab setup](https://github.com/solliancenet/taw-power-apps-power-platform/blob/main/setup/README.md)
 
 All the steps in this guide should be completed and tested before taking the training.
 
-For any questions or issues, please reach out to your coach or the person at your company responsible for organizing the training.
+## Architecture
+
+
+## Trouble shooting
