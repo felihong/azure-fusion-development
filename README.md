@@ -10,6 +10,3 @@ For the guide on performing the prework to prepare your Azure environment for th
 All the steps in this guide should be completed and tested before taking the training.
 
 ## Architecture
-
-
-## Trouble shooting
