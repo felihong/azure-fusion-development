@@ -1,4 +1,4 @@
-title: Your awesome title
+title: Design Power Apps for customized solutions using Fusion-based approach
 email: zhuhong@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -14,6 +14,7 @@ github_username:  jekyll
 remote_theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-default-layout
 
 # Exclude from processing.
 # The following items will not be processed, by default.
