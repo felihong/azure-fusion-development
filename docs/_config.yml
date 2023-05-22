@@ -5,5 +5,5 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 remote-theme: just-the-docs
 
 # the subpath of your site
-baseurl: "/taw-power-apps-power-platform" 
+baseurl: "/taw-power-apps-power-platform/docs" 
 url: "https://felihong.github.io"
