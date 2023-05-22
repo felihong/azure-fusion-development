@@ -1,8 +1,8 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 
-theme: just-the-docs
-# remote-theme: just-the-docs
+# theme: just-the-docs
+remote-theme: just-the-docs
 
 # the subpath of your site
 baseurl: "/docs" 
