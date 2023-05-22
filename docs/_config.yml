@@ -9,8 +9,8 @@ url: "https://felihong.github.io/taw-power-apps-power-platform/docs/"
 github_username:  felihong
 
 # Build settings
-theme: just-the-docs
-# remote_theme: just-the-docs
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
