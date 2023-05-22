@@ -2,7 +2,7 @@ title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 
 # theme: just-the-docs
-jekyll-remote-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
-baseurl: "" 
-url: "https://felihong.github.io/taw-power-apps-power-platform/docs"
+baseurl: "/taw-power-apps-power-platform" 
+url: "https://felihong.github.io"
