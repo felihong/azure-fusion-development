@@ -1,7 +1,7 @@
 ---
 title: Backend deployment and architecture
 layout: page
-permalink: /backend_architecture/
+permalink: /architecture/
 nav_order: 3
 ---
 

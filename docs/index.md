@@ -20,9 +20,10 @@ This workshop lab is specifically designed to professional developers, who are i
 ## Lab pre-work
 Access the [Companion lab guide](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/README.md){:target="_blank"} and follow the guidance on performing the prework to prepare an Azure environment for the lab. 
 
+{: .note }
 All the steps in this guide should be completed and tested before proceeding with the following chapters. 
-Learn about the components of Microsoft Power Platform, the business value for customers, and security of the technology. 
 
+Learn about the components of Microsoft Power Platform, the business value for customers, and security of the technology. 
 We recommend completing the following online courses to prepare you to participate in this workshop: 
 [Introduction to Power Apps - Training Microsoft | Learn](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/){:target="_blank"}
 

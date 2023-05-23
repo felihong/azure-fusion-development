@@ -2,8 +2,28 @@
 title: Fusion Development Lab
 description: Companion lab for designing Power Apps for custom solutions using Fusion-based approaches. 
 
-theme: just-the-docs
-# remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 baseurl: "/taw-power-apps-power-platform" 
 url: "https://felihong.github.io"
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jekyll-seo-tag
