@@ -111,7 +111,20 @@ Make sure you have the following env variables configured:
 - PowerAppsLabKey: <COSMOS DB PRIMARY KEY>
 ```
 For Windows: 
+```
 $env:PowerAppsLabDatabaseName ="HealthCheckDB"
 $env:PowerAppsLabContainerName= "HealthCheck"
 $env:PowerAppsLabAccount = <COSMOS DB URL>
 $env:PowerAppsLabKey = <COSMOS DB PRIMARY KEY>
+```
+
+### Execute dotnet run command
+
+Problem: Unhandled exception. System.ArgumentNullException: Value cannot be null. (Parameter 'authKeyOrResourceToken')
+This means you aren't in the administrator mode of powershell. 
+For that please execute on  Windows: 
+
+```
+Start-Process powershell -Verb runAs
+set-executionpolicy Unrestricted
+```
