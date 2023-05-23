@@ -18,10 +18,10 @@ After finishing the [Lab pre-work](https://github.com/felihong/taw-power-apps-po
 
 The deployed RESTful API handles two different resources:
 - HealthChekcs `<urlroot>/HealthCheck`
-- Patients `<urlroot>/Patients`
+- Patients `<urlroot>/Patient`
 
 {: .note }
-Initially, there is no data stored in the database. Navigate to `<urlroot>/Patients` and you will receive an empty list, which is fine and indicates a successful deployment.
+Initially, there is no data stored in the database. Navigate to `<urlroot>/Patient` and you will receive an empty list, which is fine and indicates a successful deployment.
 
 We have included a [Postman collection](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/TAW-PowerApps-Contoso.postman_collection.json){:target="_blank"} to test the API more comprehensively.
 - To test the API locally, configure the variable named `urlroot` to `http://localhost:5000`
