@@ -1,5 +1,5 @@
 ---
-title: Create a Health Check Mobile Application
+title: Create a health check mobile application
 layout: page
 permalink: /fusion_application/
 nav_order: 5
