@@ -42,7 +42,10 @@ Open the Postman collection and get familiar with the API. Discuss with your tea
 
 ## Lab exercise
 Next, we will finish the development of a proof of concept for the case study and prepare to present the demo. 
-Disucss with your team on how to define the solution to address customer objectives expanding the use of **Power Apps**. 
+
+Consider the layered architecture of **Fusion development** (pro-code & low-code) and disucss with your team on how to design the solution to address customer objectives expanding the use of **Power Apps**. 
+
+![Fusion layered architecture](../assets/fusion-architecture.png)
 
 The following resource might be helpful for you:
 - [Microsoft services architecture for APIs](https://learn.microsoft.com/en-us/azure/architecture/microservices/design/gateway){:target="_blank"}
