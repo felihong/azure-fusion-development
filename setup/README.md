@@ -110,3 +110,8 @@ Make sure you have the following env variables configured:
 - PowerAppsLabAccount: <COSMOS DB URL>
 - PowerAppsLabKey: <COSMOS DB PRIMARY KEY>
 ```
+For Windows: 
+$env:PowerAppsLabDatabaseName ="HealthCheckDB"
+$env:PowerAppsLabContainerName= "HealthCheck"
+$env:PowerAppsLabAccount = <COSMOS DB URL>
+$env:PowerAppsLabKey = <COSMOS DB PRIMARY KEY>
