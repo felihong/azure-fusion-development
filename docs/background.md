@@ -45,4 +45,4 @@ What are the solution requirements of the Contoso health checks initiative? Brai
 - Can the proposed solution successfully handle DoS or DDoS attacks?
 - Is it possible for them to limit the number of calls for a single user to no more than ten over a five-minute interval and use their own certificates and keys whenever possible?
 
-[CONTINUE](https://felihong.github.io/taw-power-apps-power-platform/backend_architecture/){: .btn .btn-purple .mr-2}
+<!-- [CONTINUE](https://felihong.github.io/taw-power-apps-power-platform/backend_architecture/){: .btn .btn-purple .mr-2} -->
