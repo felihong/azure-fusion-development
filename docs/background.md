@@ -39,10 +39,11 @@ Through a recent audit, some violations around data security were discovered whe
 {: .highlight }
 What are the solution requirements of the Contoso health checks initiative? Brainstorm with your team and discuss the following questions.
 
-- How to bring engineer and business analytics teams togetehr and how to define the responsibilities?
-- What are the functional and non-functional requirements of the health care application? 
-- How does the proposed solution meet the requirements for data privacy?
-- Can the proposed solution successfully handle DoS or DDoS attacks?
-- Is it possible for them to limit the number of calls for a single user to no more than ten over a five-minute interval and use their own certificates and keys whenever possible?
+- [ ] How to bring engineer and business analytics teams togetehr and how to define the responsibilities?
+- [ ] How to bring engineer and business analytics teams togetehr and how to define the responsibilities?
+- [ ] What are the functional and non-functional requirements of the health care application? 
+- [ ] How does the proposed solution meet the requirements for data privacy?
+- [ ] Can the proposed solution successfully handle DoS or DDoS attacks?
+- [ ] Is it possible for them to limit the number of calls for a single user to no more than ten over a five-minute interval and use their own certificates and keys whenever possible?
 
 <!-- [CONTINUE](https://felihong.github.io/taw-power-apps-power-platform/backend_architecture/){: .btn .btn-purple .mr-2} -->
