@@ -1,7 +1,7 @@
 ---
 title: Create a health check mobile application
 layout: page
-permalink: /fusion_application/
+permalink: /fusion-application/
 nav_order: 5
 ---
 
