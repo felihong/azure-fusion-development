@@ -7,7 +7,7 @@ nav_order: 3
 
 ## Environment check
 
-After finishing the [Lab pre-work](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/README.md), you should have the following resources deployed in your Azure in the region specified during deployment:
+After finishing the [Lab pre-work](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/README.md){:target="_blank"}, you should have the following resources deployed in your Azure in the region specified during deployment:
 - Resource group 
 - API management service
 - Cosmos DB account

@@ -27,7 +27,10 @@ Learn about the components of Microsoft Power Platform, the business value for c
 We recommend completing the following online courses to prepare you to participate in this workshop: 
 [Introduction to Power Apps - Training Microsoft | Learn](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/){:target="_blank"}
 
-Also make sure you are able to access an **Azure environment** and a **Power Apps environment** (with premium license attached) for the workshop.
+Also make sure you have the following resources ready:
+- Access to the [Azure portal](https://www.portal.azure.com/){:target="_blank"}
+- Access to an active [Azure subscription](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade){:target="_blank"}
+- Access to a Power Apps environment with [premium license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus){:target="_blank"}
 
 ## Workshop path
 
