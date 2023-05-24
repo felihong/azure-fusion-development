@@ -28,16 +28,16 @@ We have included a [Postman collection](https://github.com/felihong/taw-power-ap
 - Once deployed to Azure, you can test the deployed API by setting the `urlroot` to `https://<YOUR_APP_SERVICE>.azurewebsites.net`
 
 {: .highlight }
-Open the Postman collection and get familiar with the API. Discuss with your team and check other methods as below listed:
-
-- [ ] Get all HealthChecks status
-- [ ] Get a specific HealthChecks status
-- [ ] Add HealthChecks status
-- [ ] Get all Patients
-- [ ] Get a specific Patient
-- [ ] Add a new Patient
-- [ ] Modify an existing Patient
-- [ ] Delete a Patient
+> Open the Postman collection and get familiar with the API. Discuss with your team and check other methods as below listed:
+>
+> - [ ] Get all HealthChecks status
+> - [ ] Get a specific HealthChecks status
+> - [ ] Add HealthChecks status
+> - [ ] Get all Patients
+> - [ ] Get a specific Patient
+> - [ ] Add a new Patient
+> - [ ] Modify an existing Patient
+> - [ ] Delete a Patient
 
 
 ## Lab exercise

@@ -5,7 +5,10 @@ permalink: /background/
 nav_order: 2
 ---
 
+In this part, we will take a look of the customer background, analyse existing resources, as well as collect their functional/non-functional requirements for the application.
+
 ## Customer background
+
 **Contoso Healthcare** is a global network of healthcare providers with a presence throughout the industry. Contoso Healthcare wishes to drive a new **Health Checks initiative**, which specifically entails building a suite of health check applications for its 7,500 combined direct and partner network employees worldwide to use. Currently, Contoso has an old **.NET system** they developed running on servers in their data center. This .NET system use a **SQL databases** for the backend. With recent modernization efforts, they want to optimize this system to the cloud while also migrating to more cloud-native platforms.
 
 Contoso already uses a variety of Microsoft Azure services, taking advantage of both infrastructure as a service (IaaS) and platform as a service (PaaS)offerings. Their software engineers and infrastructure team have a good working familiarity with Azure services and wish to use this opportunity to develop an innovative product that can serve as a guide for future modernization of their existing application and infrastructure.
