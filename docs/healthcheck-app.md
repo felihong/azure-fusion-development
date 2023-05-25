@@ -11,7 +11,8 @@ Back in the [Power Apps Editor](https://make.powerapps.com){:target="_blank"}, i
 ![Contoso canvas app](../assets/canvas-app.png)
 
 You can design and configure the screen using the [UI conponents](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/power-apps-studio){:target="_blank"}. 
-An example screen looks like the following, 
+An example screen looks like the following, consisting of components such as `text label`, `rechtangle`, `image`, [control gallery](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-gallery) and a [control button](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-button). 
+In addition, a dataverse table is created as data source for the control gallery, consisting information of health care categories like title, subtitle, logos and so on. 
 
 ![Example screen](../assets/example-screen.png)
 
@@ -25,6 +26,44 @@ Now we can add the health care API data source as follows:
 
 ![Add contoso api](../assets/add-contoso-api.png)
 
-Our custom API is now ready for use. We can test an API operation such as `getAllPatient`. The operation returns all existing patients in a list, and we can store the responses as a [collection](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-update-collection){:target="_blank"} to be used later. 
+Our custom API is now ready for use. We can test an API operation such as `getAllPatient`. The operation returns all existing patients in a list, and we can store the responses as a [collection](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-update-collection){:target="_blank"} to be used later. To archieve this, we need to define the control logic of the gallery component. 
+
+Create a new screen in addition to the default one, rename it to for example `PatientProfileScreen`, this will be used to present the API call results. 
+Select the `>` symbol of the vertical gallery, in the left pane drop-down menu, select the `OnSelect` action that will be executed when a user selects a category item from the gallery.
+Navigate to `fx` input section and call the health care API function based on current context, navigate to the next screen and save the response as a collection:
+
+```
+Switch(
+    ThisItem.Name, 
+    "Get all patients", ClearCollect(patientCollection, ContosoHealthCareAPI.getAllPatient()); Navigate(PatientProfileScreen),
+    false
+);
+```
+The action result will be stored in a collection named `patientCollection`, you can check this results in the left panel, select `(X) -> Collections` and select the elipses to `View Table`. 
+
+![Add contoso api](../assets/view-collection.png)
+
+
+
+## Present the health care API responses
+
+![Get patient result](../assets/get-result.png)
+
+```
+Navigate(HomeScreen);
+
+ContosoHealthCareAPI.addpatient({
+    patientid: input_patientid.Text,
+    name: input_firstname.Text & " " & input_lastname.Text
+});
+
+Reset(input_patientid);
+Reset(input_firstname);
+Reset(input_lastname);
+```
+
+![Add patient request](../assets/post-request.png)
+
+
 
 
