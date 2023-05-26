@@ -79,5 +79,5 @@ You can check whether the post request has been successfully handled by navigati
 > 
 > Note that you need to modify the custom connector from both Azure API Management and Power Platform endpoints, and update the connection to your App.
 >
-> Good luck! :) 
+> Good luck! :D
 
