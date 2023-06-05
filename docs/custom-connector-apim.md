@@ -77,6 +77,3 @@ After the configuration, we can now test the new API in the Azure portal. Select
 > - [ ] Modify an existing Patient
 > - [ ] Delete a Patient
 
-
-## Create a custom connector
-From the existing Star Wars API Api in Azure API Management, click the ellipsis … and select the Create Power Connector option to generate a custom connector in your Power Platform environment.
