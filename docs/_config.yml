@@ -5,7 +5,7 @@ description: Companion lab for designing Power Apps for custom solutions using F
 remote_theme: just-the-docs/just-the-docs
 # theme: just-the-docs
 
-baseurl: "/taw-power-apps-power-platform" 
+baseurl: "/azure-fusion-development" 
 url: "https://felihong.github.io"
 
 callouts_level: quiet 

@@ -7,7 +7,7 @@ nav_order: 3
 
 ## Environment check
 
-After finishing the [Lab pre-work](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/README.md){:target="_blank"}, you should have the following resources deployed in your Azure in the region specified during deployment:
+After finishing the [Lab pre-work](https://github.com/felihong/azure-fusion-development/blob/main/setup/README.md){:target="_blank"}, you should have the following resources deployed in your Azure in the region specified during deployment:
 - Resource group 
 - API management service
 - Cosmos DB account
@@ -23,7 +23,7 @@ The deployed RESTful API handles two different resources:
 {: .note }
 Initially, there is no data stored in the database. Navigate to `<urlroot>/Patient` and you will receive an empty list, which is fine and indicates a successful deployment.
 
-We have included a [Postman collection](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/TAW-PowerApps-Contoso.postman_collection.json){:target="_blank"} to test the API more comprehensively.
+We have included a [Postman collection](https://github.com/felihong/azure-fusion-development/blob/main/setup/TAW-PowerApps-Contoso.postman_collection.json){:target="_blank"} to test the API more comprehensively.
 - To test the API locally, configure the variable named `urlroot` to `http://localhost:5000`
 - Once deployed to Azure, you can test the deployed API by setting the `urlroot` to `https://<YOUR_APP_SERVICE>.azurewebsites.net`
 
