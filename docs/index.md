@@ -4,37 +4,26 @@ layout: default
 nav_order: 1
 ---
 
-This workshop lab aligns to the **Accelerate innovation with Low Code** solution play and aims to educate professional developers on building apps using Azure services within Power Platform. 
+This workshop lab aligns to the **Accelerate innovation with Low Code** solution play and aims to educate professional developers or citizen developers on building apps leveraging on Azure services within Power Platform.
 Step by steps, this lab guides you to design a Power App for customized solutions using **Fusion based** approaches. Participants will discuss best practices and apply what they've learned in the hands-on lab.
 
 ## Learning objectives
+
 By the end of this workshop lab, participants will be able to:
 
 - Better understand the ecosystem of the Power Apps family and its benefits.
-- Demonstrate the process for designing solutions in utilizing both Power Platform and Azure in an integrated fashion. 
+- Demonstrate the process for designing solutions in utilizing both Power Platform and Azure in an integrated fashion.
+- Build a health care application for manipulating patient health data
 
 ## Workshop audience
 
-This workshop lab is specifically designed to professional developers, who are interested in extending the application design with Microsoft Power Platform.
+This workshop lab is specifically designed to professional developers and citizen developers, who are interested in extending the application design with Microsoft Power Platform.
 
-## Lab pre-work
-Access the [Companion lab guide](https://github.com/felihong/taw-power-apps-power-platform/blob/main/setup/README.md){:target="_blank"} and follow the guidance on performing the prework to prepare an Azure environment for the lab. 
-
-{: .note }
-All the steps in this guide should be completed and tested before proceeding with the following chapters. 
-
-Learn about the components of Microsoft Power Platform, the business value for customers, and security of the technology. 
-We recommend completing the following online courses to prepare you to participate in this workshop: 
-[Introduction to Power Apps - Training Microsoft | Learn](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/){:target="_blank"}
-
-Also make sure you have the following resources ready:
-- Access to the [Azure portal](https://www.portal.azure.com/){:target="_blank"}
-- Access to an active [Azure subscription](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade){:target="_blank"}
-- Access to a Power Apps environment with [premium license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus){:target="_blank"}
+<!--  -->
 
 ## Workshop path
 
-This workshop is divided into the following parts in which you will collaborate with your team: 
+This workshop is divided into the following parts in which you will collaborate with your team:
 
 1. You will be updated on Power Apps for Power Platform and its benefits, as well as best practices to adopt pro-code & low-code solutions.
 2. You will get to know the customer context by reading the corresponding customer scenario. Then you will then analyze their needs and design a solution for them.
