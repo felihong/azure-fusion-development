@@ -2,7 +2,7 @@
 title: Create a custom connector
 layout: page
 permalink: /custom-connector/
-nav_order: 4
+nav_order: 3
 has_children: true
 ---
 
