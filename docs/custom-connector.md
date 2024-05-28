@@ -1,11 +1,18 @@
 ---
-title: Create a custom connector
+# title: Create a custom connector
+title: Import a custom connector
 layout: page
 permalink: /custom-connector/
 nav_order: 3
-has_children: true
+# has_children: true
 ---
 
-In this exercise, you will be using the Consoto health care backend that you created in [part three](/azure-fusion-development/architecture/) of this lab. Patient profiles and health check statuses will be stored in the Cosmos database and serve as the primary backing data source for the application.
+<!-- In this exercise, you will be using the Consoto health care backend that you created in [part three](/azure-fusion-development/architecture/) of this lab. Patient profiles and health check statuses will be stored in the Cosmos database and serve as the primary backing data source for the application.
 
-As a next step, you will configure the health care API gateway in **Azure API management** and export this as a **Power Platform Custom Connector**, so that the Power Apps Canvas app can access real-time patients and health check information. For each of the Patient, you can then search the patient profile and show information about health care status in the Canvas App.
+As a next step, you will configure the health care API gateway in **Azure API management** and export this as a **Power Platform Custom Connector**, so that the Power Apps Canvas app can access real-time patients and health check information. For each of the Patient, you can then search the patient profile and show information about health care status in the Canvas App. -->
+
+In this exercise, you will be using the Consoto health care backend that provided by the engineering team. Patient profiles and health check statuses will be stored in a database hosted in Azure and serve as the primary backing data source for the application.
+
+As a next step, you will configure the health care API by importing this as a **Power Platform Custom Connector**, so that the Power Apps Canvas app can access real-time patients and health check information. For each of the Patient, you can then search the patient profile and show information about health care status in the Canvas App.
+
+<a href="ContosoHealthCareApp_1_0_0_3.zip">Download Solution</a>
