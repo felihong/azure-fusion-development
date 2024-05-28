@@ -15,4 +15,4 @@ In this exercise, you will be using the Consoto health care backend that provide
 
 As a next step, you will configure the health care API by importing this as a **Power Platform Custom Connector**, so that the Power Apps Canvas app can access real-time patients and health check information. For each of the Patient, you can then search the patient profile and show information about health care status in the Canvas App.
 
-<a href="./ContosoHealthCareApp_1_0_0_3.zip" download>Download Power Apps Solution</a>
+<a href="https://github.com/felihong/azure-fusion-development/blob/main/docs/ContosoHealthCareApp_1_0_0_3.zip">Download Power Apps Solution</a>
