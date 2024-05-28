@@ -1,14 +1,13 @@
-
 title: Fusion Development Lab
-description: Companion lab for designing Power Apps for custom solutions using Fusion-based approaches. 
+description: Companion lab for designing Power Apps for custom solutions using Fusion-based approaches.
 
-remote_theme: just-the-docs/just-the-docs
-# theme: just-the-docs
+# remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
-baseurl: "/azure-fusion-development" 
+baseurl: "/azure-fusion-development"
 url: "https://felihong.github.io"
 
-callouts_level: quiet 
+callouts_level: quiet
 callouts:
   highlight:
     color: yellow
