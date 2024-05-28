@@ -24,3 +24,5 @@ After downloading, navigate to the `Solutions/Import Solution` to import the pre
 Once the importing is completed, you should be able to see the health care `Custom Connector` which we can use in the next session.
 
 ![Contoso canvas app](../assets/after-import.png)
+
+In the next part, we will create a canvas app within this unmanaged solution and use the Contoso health care custom connector to manipulate patient and health record data.
