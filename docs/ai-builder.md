@@ -5,7 +5,7 @@ permalink: /ai-builder/
 nav_order: 5
 ---
 
-In this part we will bring more intelligence to our health care App by enabling AI-empowered automatic `Health card reader`. This is done using the `Power Apps AI Builder`.
+In this part we will bring more intelligence to our health care App by enabling AI-empowered automatic `Health card reader`. This is done using the **Power Apps AI Builder**.
 
 AI Builder is a Microsoft Power Platform capability that helps you improve your business performance by automating processes and predicting outcomes. By using AI Builder, you can quickly bring AI to your apps and flows that connect to your business data that is stored in the underlying data platform (Microsoft Dataverse) or in various cloud data sources, such as SharePoint, OneDrive, or Azure.
 
